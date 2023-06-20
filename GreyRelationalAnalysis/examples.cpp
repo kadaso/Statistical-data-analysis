@@ -7,7 +7,7 @@ import GRA;
 void print_scaled(std::vector<double>& original, std::vector<double>& scaled)
 {
 	std::cout << std::format("{:>10} | {:>7}", "Original", "Scaled") << std::endl;  // Output-table header
-
+	
 	size_t count{ original.size() };
 	for (size_t i{}; i < count; i++)
 	{
