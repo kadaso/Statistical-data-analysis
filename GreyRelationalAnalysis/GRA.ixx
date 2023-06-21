@@ -3,7 +3,6 @@ export module GRA;
 import <iostream>;
 import <vector>;
 import <cmath>;
-import <format>;
 
 export namespace gra
 {
